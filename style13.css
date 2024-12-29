@@ -1,0 +1,88 @@
+*{
+    font-family: Roboto;
+ }
+
+.header-container--list > a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+}
+
+.header-container--list :hover {
+    color: #2196F3;
+}
+
+.header-container--conection_info > a { 
+    text-decoration: none;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header-container--conection_info :hover {
+    color: #2196F3;
+}
+
+.pages {
+    margin-right: 215px;
+    margin-left: 215px;
+    max-width: 1170px;
+}
+
+.pages > div > a {
+    background-color:#F5F4FA;
+    text-decoration: none;
+    color: #212121;
+    margin-left: 8px;
+    margin-bottom: 34px;
+}
+
+.pages > div > a:hover {
+    background-color: #2196F3;
+    color: #EEEEEE;
+}
+
+.pages > img {
+    width: 370px;
+    height: 294px;
+    top: 1130px;
+    left: 1015px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.pages--block {
+    border: solid #EEEEEE;
+    border-width: 1px;
+    max-width: 370px;
+}
+
+.footer_container > div > a {
+    text-decoration: none;
+    color: #FFFFFF99;
+}
+
+.footer_container {
+    background-color: #2F303A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
